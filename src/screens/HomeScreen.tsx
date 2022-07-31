@@ -27,9 +27,9 @@ export const HomeScreen: React.FunctionComponent<HomeScreenProps> = (props) => {
 
     return (
         <View style={styles.container}>
-            <View style={styles.navigation}>
+            {/* <View style={styles.navigation}>
                 <Text>Navigation</Text>
-            </View>
+            </View> */}
             <View style={styles.body}>
                 {/* <Text>Home Screen</Text> */}
                 <FlatList
@@ -42,7 +42,7 @@ export const HomeScreen: React.FunctionComponent<HomeScreenProps> = (props) => {
                 />
             </View>
             <View style={styles.footer}>
-                <Text>Footer</Text>
+                {/* <Text>Footer</Text> */}
             </View>
         </View>
     )
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     },
     footer: {
         flex: 1,
-        backgroundColor: 'red',
+        backgroundColor: '#29335C',
         alignItems: 'center',
         justifyContent: 'center',
     },

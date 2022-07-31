@@ -12,7 +12,7 @@ export const LandingScreen: React.FunctionComponent<LandingScreenProps> = () => 
     
     const navigation = useNavigation<NativeStackNavigationProp<any>>()
     const onPress = () => {
-        navigation.navigate('Mes Actualités')
+        navigation.navigate('HomeScreen')
     }
 
     return (

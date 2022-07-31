@@ -15,7 +15,7 @@ export const ListItems: React.FunctionComponent<ListItemsProps> = ({
 
     const navigation = useNavigation<NativeStackNavigationProp<any>>()
     const onPress = () => {
-        navigation.navigate('News Screen', {
+        navigation.navigate('NewsScreen', {
             id: NewsList.id,
         })
     }
